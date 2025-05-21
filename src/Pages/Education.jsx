@@ -7,27 +7,28 @@ const Education = () => {
   const educationData = [
     {
       id: 1,
-      institution: "Harvard University",
-      degree: "Master of Computer Science",
-      duration: "2021 - 2023",
+      institution: "Sinhgad Institute of Technology",
+      University: "Savitribai Phule Pune University",
+      degree: "Bachelor of Information Technology",
+      duration: "2017 - 2023",
       description:
-        "Specialized in artificial intelligence and software development, working on real-world projects.",
+        "Completed B.E. in Information Technology from Sinhgad Institute of Technology, specializing in Artificial Intelligence and Software Development through real-world projects..",
     },
     {
       id: 2,
-      institution: "Stanford University",
-      degree: "Bachelor of Information Technology",
-      duration: "2017 - 2021",
+      institution: "Shree Wardhman Vidyalaya and Jr. College",
+      degree: "Higer Secondary Certificate",
+      duration: "2014 - 2017",
       description:
-        "Focused on cloud computing, cybersecurity, and full-stack web development.",
+        "Completed HSC in Science (PCM) from Shree Wardhman Vidyalaya and Jr. College, building a strong base for my IT career.",
     },
     {
       id: 3,
-      institution: "MIT",
-      degree: "Diploma in Web Development",
-      duration: "2016 - 2017",
+      institution: "Bharat Children's Academy and Jr. College,",
+      degree: "Secondary School Certificate",
+      duration: "2014",
       description:
-        "Completed an intensive program covering modern web technologies like React, Node.js, and databases.",
+        "Completed SSC from Bharat Children's Academy and Jr. College, laying the foundation for my academic and technical journey ",
     },
   ];
 

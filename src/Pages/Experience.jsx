@@ -7,19 +7,35 @@ const Experience = () => {
   const experienceData = [
     {
       id: 1,
-      company: "Tech Solutions Inc.",
-      role: "Frontend Developer",
-      duration: "2023 - Present",
+      company: "Logipool inforech.",
+      role: "DevOps engineer",
+      duration: "2024 - Present",
       description:
-        "Developed and maintained responsive UI components using React and Tailwind CSS. Worked closely with the backend team to integrate APIs and improve user experience.",
+        "Managed CI/CD pipelines and automated deployment processes using Jenkins and Docker. Monitored system performance and ensured seamless collaboration between development and operations teams.",
     },
     {
       id: 2,
-      company: "InnovateX Labs",
-      role: "Web Developer Intern",
-      duration: "2022 - 2023",
+      company: "Testbook.Edu",
+      role: "Data Analyst & Sr.Business Development Associate",
+      duration: "2024 - 2024",
       description:
-        "Assisted in building and testing web applications. Gained hands-on experience in JavaScript frameworks and agile development methodologies.",
+        "Analyzed user data to uncover insights and improve conversion strategies. Led a team in executing business development campaigns, driving user engagement and platform adoption.",
+    },
+    {
+      id: 3,
+      company: "Think & Learn Pvt. Ltd.",
+      role: "Business Development Associate",
+      duration: "2023 - 2024",
+      description:
+        "Engaged with potential clients to understand their needs and deliver tailored ed-tech solutions. Collaborated with cross-functional teams to optimize sales strategies and drive revenue growth.",
+    },
+    {
+      id: 4,
+      company: "Bitmap Technologies.",
+      role: "Web Developer",
+      duration: "2022 - 2023 ",
+      description:
+        "Developed and maintained responsive UI components using React and Tailwind CSS. Worked closely with the backend team to integrate APIs and improve user experience.",
     },
   ];
 

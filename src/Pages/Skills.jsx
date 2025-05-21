@@ -45,6 +45,10 @@ const Skills = () => {
       category: "Product Management",
       skills: ["Agile Methodologies", "Scrum", "Market Research", "Roadmap Planning"],
     },
+    {
+      category: "DevOps Engineering",
+      skills: ["CI/CD", "Docker", "Kubernetes", "Jenkins", "Monitoring & Logging", "Infrastructure as Code (IaC)"],
+    },
   ];
 
   const [openCategory, setOpenCategory] = useState(null);
