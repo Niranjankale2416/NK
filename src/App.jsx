@@ -74,13 +74,13 @@ function App() {
   const [showWelcome, setShowWelcome] = useState(true);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/NK">
       <Routes>
         <Route
           path="/"
           element={<LandingPage showWelcome={showWelcome} setShowWelcome={setShowWelcome} />}
         />
-        <Route path="/project/:id" element={<ProjectPageLayout />} />
+        <Route path="/project/:id" element={<ProjectPageLayout />} />   
       </Routes>
     </BrowserRouter>
   );

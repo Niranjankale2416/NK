@@ -1,5 +1,5 @@
 import React, { useEffect, memo, useMemo } from "react";
-import { FileText, Code, Award, Globe, ArrowUpRight, Sparkles } from "lucide-react";
+import { FileText, Code, Sparkles } from "lucide-react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -19,7 +19,7 @@ const ProfileImage = memo(() => (
     <div className="relative group" data-aos="fade-up" data-aos-duration="1000">
       <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full blur-3xl opacity-20" />
       <div className="relative w-64 h-64 sm:w-72 sm:h-72 rounded-full overflow-hidden shadow-lg transform transition duration-500 group-hover:scale-105">
-        <img src="/Photo.png" alt="Profile" className="w-full h-full object-cover transition duration-500 group-hover:scale-110" loading="lazy" />
+        <img src="/niranjank.jpg" alt="Niranjan D Kale" className="w-full h-full object-cover transition duration-500 group-hover:scale-110" loading="lazy" />
       </div>
     </div>
   </div>
