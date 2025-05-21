@@ -1,24 +1,47 @@
-# Portfolio V5  
+
+# 🌐 NK - Personal Portfolio Website  
+
 Hello everyone!  
-Let me introduce myself, I’m Niranjan kale . On this occasion, I’d like to share the portfolio website project that I’ve developed.  
+I'm **Niranjan Kale**, an enthusiastic IT Support Specialist and developer, passionate about technology and design. I'm excited to share my **Portfolio Website Project** with you, crafted using modern tools and a clean, professional UI. This project highlights my skills, experience, and achievements in a beautifully responsive format.
 
-**Tech Stack used:**  
-- ReactJS  
-- Tailwind CSS  
-- AOS  
-- Firebase  
-- Framer Motion  
-- Lucide  
-- Material UI  
-- SweetAlert2  
+Feel free to use and modify this project for your personal use. If you do, a little credit would be appreciated. Thank you! 🙏  
 
-**Website Link:**  
-[https://www.eki.my.id/](https://www.eki.my.id/)  
+---
+
+## 🚀 Tech Stack  
+
+- **ReactJS** – Fast, component-based UI  
+- **Tailwind CSS** – Utility-first styling  
+- **Framer Motion** – Animation and transitions  
+- **Firebase** – Hosting and database  
+- **AOS (Animate on Scroll)** – Scroll-based animations  
+- **Material UI & Lucide** – UI and icons  
+- **SweetAlert2** – Modern alert popups  
+
+---
+
+## 🔗 Live Website  
+
+🔗 [View Live Portfolio]https://niranjankale2416.github.io/NK/ 
+
+---
+
+## 🛠️ How to Run the Project  
+
+### ✅ Prerequisites  
+
+- [Node.js](https://nodejs.org/en/) must be installed  
+
+### 📦 Steps  
+
+1. **Clone this Repository**  
+
+   ```bash
+   git clone https://github.com/Niranjankale2416/NK
 
 We would appreciate it if you decide to use this project. Please include credit when using it. Thank you! 🙏  
 
 ---
-
 # Tutorial: Running the Project  
 
 Here’s a simple guide to run this project.  
@@ -36,7 +59,7 @@ Ensure that you have already installed:
 
    ```bash  
    git clone https://github.com/Lucifermorningstar2614
-NK-RESUME
+NK
    ```  
 
 2. **Install all dependencies:**  
