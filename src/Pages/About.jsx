@@ -19,7 +19,7 @@ const ProfileImage = memo(() => (
     <div className="relative group" data-aos="fade-up" data-aos-duration="1000">
       <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 rounded-full blur-3xl opacity-20" />
       <div className="relative w-64 h-64 sm:w-72 sm:h-72 rounded-full overflow-hidden shadow-lg transform transition duration-500 group-hover:scale-105">
-        <img src="/niranjank.jpg" alt="Niranjan D Kale" className="w-full h-full object-cover transition duration-500 group-hover:scale-110" loading="lazy" />
+        <img src="/NK/niranjank.jpg" alt="Niranjan D Kale" className="w-full h-full object-cover transition duration-500 group-hover:scale-110" loading="lazy" />
       </div>
     </div>
   </div>

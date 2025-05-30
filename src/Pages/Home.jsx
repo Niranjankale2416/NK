@@ -76,8 +76,8 @@ const SocialLink = memo(({ icon: Icon, link }) => (
 // Constants
 const TYPING_SPEED = 100;
 const ERASING_SPEED = 60;
-const PAUSE_DURATION = 2500;
-const WORDS = ["IT Support Specialist", "Tech Enthusiast", "Full Stack Developer","Devops Engineer"];
+const PAUSE_DURATION = 2100;
+const WORDS = ["IT Support Specialist","Full Stack Developer","Devops Engineer","Tech Enthusiast"];
 const TECH_STACK = ["React", "Javascript", "Node.js", "Tailwind"];
 const SOCIAL_LINKS = [
   { icon: Github, link: "https://github.com/Niranjankale2416" },

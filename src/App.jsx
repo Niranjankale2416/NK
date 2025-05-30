@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React, { useState } from "react";
 import "./index.css";
+
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Education from "./Pages/Education";
@@ -44,6 +45,11 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
                 </a>
                 . All Rights Reserved.
               </span>
+              <img
+                src={`${import.meta.env.BASE_URL}NKsign.png`}
+                alt="NK Signature"
+                style={{ width: "150px", height: "auto", marginTop: "8px" }}
+              />
             </center>
           </footer>
         </>
@@ -65,6 +71,11 @@ const ProjectPageLayout = () => (
           </a>
           . All Rights Reserved.
         </span>
+        <img
+          src={`${import.meta.env.BASE_URL}NKsign.png`}
+          alt="NK Signature"
+          style={{ width: "150px", height: "auto", marginTop: "8px" }}
+        />
       </center>
     </footer>
   </>
@@ -78,9 +89,14 @@ function App() {
       <Routes>
         <Route
           path="/"
-          element={<LandingPage showWelcome={showWelcome} setShowWelcome={setShowWelcome} />}
+          element={
+            <LandingPage
+              showWelcome={showWelcome}
+              setShowWelcome={setShowWelcome}
+            />
+          }
         />
-        <Route path="/project/:id" element={<ProjectPageLayout />} />   
+        <Route path="/project/:id" element={<ProjectPageLayout />} />
       </Routes>
     </BrowserRouter>
   );
