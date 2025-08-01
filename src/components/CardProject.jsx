@@ -2,49 +2,44 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ExternalLink, ArrowRight } from 'lucide-react';
 
-const CardProject = ({ Img, Title, Description, Link: ProjectLink, id }) => {
-  // Handle missing links with styled messages
+const CardProject = ({ imageUrl, Title, Description, Link: ProjectLink, id }) => {
   const handleLiveDemo = (e) => {
     if (!ProjectLink) {
       e.preventDefault();
       console.warn("Live demo link is not available");
     }
   };
-  
+
   const handleDetails = (e) => {
     if (!id) {
       e.preventDefault();
       console.warn("Project details are not available");
     }
   };
-  
+
   return (
     <div className="group relative w-full">
       <div className="relative overflow-hidden rounded-xl bg-gradient-to-br from-gray-900/90 to-gray-800/90 backdrop-blur-lg border border-white/10 shadow-2xl transition-all duration-300 hover:shadow-indigo-500/30 hover:scale-[1.02]">
         <div className="absolute inset-0 bg-gradient-to-br from-indigo-500/10 via-purple-500/10 to-pink-500/10 opacity-50 group-hover:opacity-80 transition-opacity duration-300"></div>
-    
         <div className="relative p-5 z-10">
           <div className="relative overflow-hidden rounded-lg">
             <img
-              src={Img}
+              src={imageUrl}
               alt={Title}
               className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500 rounded-lg"
             />
           </div>
-          
           <div className="mt-4 space-y-3">
             <h3 className="text-xl font-bold bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-200 bg-clip-text text-transparent">
               {Title}
             </h3>
-            
             <p className="text-gray-300/80 text-sm leading-relaxed line-clamp-2">
               {Description}
             </p>
-            
             <div className="pt-4 flex items-center justify-between">
               {ProjectLink ? (
                 <a
-                  href={ProjectLink || "#"}
+                  href={ProjectLink}
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={handleLiveDemo}
@@ -56,7 +51,6 @@ const CardProject = ({ Img, Title, Description, Link: ProjectLink, id }) => {
               ) : (
                 <span className="text-gray-500 text-sm">Demo Not Available</span>
               )}
-              
               {id ? (
                 <Link
                   to={`/project/${id}`}
@@ -71,7 +65,6 @@ const CardProject = ({ Img, Title, Description, Link: ProjectLink, id }) => {
               )}
             </div>
           </div>
-          
           <div className="absolute inset-0 border border-transparent group-hover:border-indigo-500/50 rounded-xl transition-all duration-300 -z-50"></div>
         </div>
       </div>

@@ -1,0 +1,21 @@
+[
+  { "title": "Cyber Security", "image": "cyber-security.jpg", "category": "Security" },
+  { "title": "Fortinet NSE 1", "image": "fortinet-nse-1.jpg", "category": "Security" },
+  { "title": "Fortinet NSE 2", "image": "fortinet-nse-2.png", "category": "Security" },
+  { "title": "Fortinet NSE 3", "image": "fortinet-nse-3.jpg", "category": "Security" },
+  { "title": "Fortinet NSE 4", "image": "fortinet-nse-4.jpg", "category": "Security" },
+  { "title": "Fortinet NSE 5", "image": "fortinet-nse-5.jpg", "category": "Security" },
+  { "title": "Fortinet NSE 6", "image": "fortinet-nse-6.jpg", "category": "Security" },
+  { "title": "Fortinet NSE 7", "image": "fortinet-nse-7.jpg", "category": "Security" },
+  { "title": "Fortinet NSE 8", "image": "fortinet-nse-8.jpg", "category": "Security" },
+
+  { "title": "Python", "image": "python.jpg", "category": "Programming" },
+  { "title": "Java", "image": "oracle-java.jpg", "category": "Programming" },
+  { "title": "MERN Stack", "image": "mern.png", "category": "Programming" },
+
+  { "title": "Power BI", "image": "power-bi.png", "category": "Tools" },
+  { "title": "ServiceNow CSA", "image": "Servicenow-csa.jpg", "category": "Tools" },
+  { "title": "Google IT Support", "image": "google-it-support.jpg", "category": "Tools" },
+
+  { "title": "PMP", "image": "pmp.jpeg", "category": "Management" }
+]
