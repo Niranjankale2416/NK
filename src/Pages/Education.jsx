@@ -37,7 +37,10 @@ const Education = () => {
   }, []);
 
   return (
-    <section className="h-auto pb-[10%] text-white overflow-hidden px-[5%] sm:px-[5%] lg:px-[10%] mt-10 sm:mt-0" id="Education">
+    <section
+      className="h-auto pb-[10%] text-white overflow-hidden px-[5%] sm:px-[5%] lg:px-[10%] mt-10 sm:mt-0"
+      id="Education"
+    >
       <div className="text-center lg:mb-8 mb-2">
         <h2
           className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#6366f1] to-[#a855f7]"
