@@ -49,7 +49,7 @@ const AboutPage = () => {
             Passionate IT professional with expertise in Java, C#, Python, JavaScript, SQL, Active Directory, and ServiceNow. I thrive in designing, troubleshooting, and optimizing IT solutions while exploring innovative technologies.
           </p>
           <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
-            <a href="https://drive.google.com/file/d/1H1G4Nc07e5hi8oFcrGPzvlKd9uDiavdl/view?usp=drive_link" className="w-full sm:w-auto">
+            <a href="https://drive.google.com/file/d/1AGT3odtAkhl8Gs0smykMD09rXBJptYhE/view?usp=drive_link" className="w-full sm:w-auto">
               <button className="w-full sm:w-auto px-6 py-3 rounded-lg bg-gradient-to-r from-blue-500 to-purple-500 text-white font-medium transition transform hover:scale-105 shadow-lg">
                 <FileText className="w-5 h-5 inline-block mr-2" /> Download CV
               </button>

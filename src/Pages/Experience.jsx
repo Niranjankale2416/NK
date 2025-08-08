@@ -7,7 +7,7 @@ const Experience = () => {
   const experienceData = [
     {
       id: 1,
-      company: "Logipool inforech.",
+      company: "DevOps Enabler & Co.",
       role: "DevOps engineer",
       duration: "2024 - Present",
       description:

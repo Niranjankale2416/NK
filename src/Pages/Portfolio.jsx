@@ -115,28 +115,53 @@ export default function FullWidthTabs() {
     AOS.init({ once: false });
 
     setProjects([
-      {
-        id: "1",
-        Img: "project1.png",
-        Title: "Portfolio Website",
-        Description: "A responsive React portfolio with Tailwind and AOS.",
-        Link: "https://your-portfolio.com",
-      },
-      {
-        id: "2",
-        Img: "project2.png",
-        Title: "Task Tracker",
-        Description: "A full-stack task manager built with React and Firebase.",
-        Link: "https://task-app.com",
-      },
-      {
-        id: "3",
-        Img: "project3.png",
-        Title: "Weather App",
-        Description: "A weather forecast app using OpenWeather API.",
-        Link: "https://weather-app.com",
-      },
-    ]);
+  {
+    id: "project1",
+    Img: "expense-tracker.png",
+    Title: "Full Stack Expense Tracker",
+    Description: "A MERN stack application to track expenses with user authentication and charts.",
+    Link: "https://your-live-demo.com",
+    GitHub: "Add your GitHub repo link here",
+    TechUsed: ["React", "Node.js", "Express", "MongoDB"],
+  },
+  {
+    id: "project2",
+    Img: "ticketing-system.png",
+    Title: "IT Support Ticketing System",
+    Description: "A web-based ticketing system to manage IT issues and track resolutions.",
+    Link: "https://your-demo.com",
+    GitHub: "Add your GitHub repo link here",
+    TechUsed: ["HTML", "CSS", "JavaScript", "Firebase"],
+  },
+  {
+    id: "project3",
+    Img: "cicd-pipeline.png",
+    Title: "CI/CD Pipeline Automation",
+    Description: "Automated deployment using GitHub Actions and Docker for a Node.js app.",
+    Link: "https://your-demo.com",
+    GitHub: "Add your GitHub repo link here",
+    TechUsed: ["GitHub Actions", "Docker", "Node.js"],
+  },
+  {
+    id: "project4",
+    Img: "prometheus.png",
+    Title: "Monitoring System with Prometheus",
+    Description: "Set up server monitoring using Prometheus and Grafana dashboards.",
+    Link: "",
+    GitHub: "Add your GitHub repo link here",
+    TechUsed: ["Prometheus", "Grafana", "Linux"],
+  },
+  {
+    id: "project5",
+    Img: "terraform.png",
+    Title: "Infrastructure as Code with Terraform",
+    Description: "Deployed cloud infrastructure using Terraform and AWS.",
+    Link: "",
+    GitHub: "Add your GitHub repo link here",
+    TechUsed: ["Terraform", "AWS", "IAM"],
+  },
+]);
+
 
     // Load certificates from JSON
     setCertificates(certificateData);

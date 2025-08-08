@@ -7,7 +7,7 @@ import About from "./Pages/About";
 import Education from "./Pages/Education";
 import Experience from "./Pages/Experience";
 import Skills from "./Pages/Skills";
-import Portofolio from "./Pages/Portofolio";
+import Portfolio from "./Pages/Portfolio"; // ✅ renamed from Portofolio
 import ContactPage from "./Pages/Contact";
 import AnimatedBackground from "./components/Background";
 import Navbar from "./components/Navbar";
@@ -28,13 +28,17 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
         <>
           <Navbar />
           <AnimatedBackground />
-          <Home />
-          <About />
-          <Education />
-          <Experience />
-          <Skills />
-          <Portofolio />
-          <ContactPage />
+
+          {/* Section Wrappers for smooth scroll targets */}
+          <section id="Home"><Home /></section>
+          <section id="About"><About /></section>
+          <section id="Education"><Education /></section>
+          <section id="Experience"><Experience /></section>
+          <section id="Skills"><Skills /></section>
+          <section id="Portfolio"><Portfolio /></section>
+          <section id="Contact"><ContactPage /></section>
+
+          {/* Footer */}
           <footer>
             <center>
               <hr className="my-3 border-gray-400 opacity-15 sm:mx-auto lg:my-6 text-center" />

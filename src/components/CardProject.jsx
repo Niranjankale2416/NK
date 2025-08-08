@@ -37,20 +37,6 @@ const CardProject = ({ imageUrl, Title, Description, Link: ProjectLink, id }) =>
               {Description}
             </p>
             <div className="pt-4 flex items-center justify-between">
-              {ProjectLink ? (
-                <a
-                  href={ProjectLink}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={handleLiveDemo}
-                  className="inline-flex items-center space-x-2 text-indigo-400 hover:text-indigo-300 transition-all duration-200 hover:scale-105"
-                >
-                  <span className="text-sm font-medium">Live Demo</span>
-                  <ExternalLink className="w-4 h-4" />
-                </a>
-              ) : (
-                <span className="text-gray-500 text-sm">Demo Not Available</span>
-              )}
               {id ? (
                 <Link
                   to={`/project/${id}`}
